@@ -1,21 +1,30 @@
-# webdemo
+# MySPA
 
-> A Vue.js project
+> My SPA演示地址 [demo](https://fanytang.github.io/MySPA).
 
-## Build Setup
+## 项目运行
 
 ``` bash
-# install dependencies
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 启动服务器在 localhost:8080
 npm run dev
 
-# build for production with minification
+# 打包
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
+##技术栈
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+vue2 + vuex + vue-router + axios + mock.js + vue-preview + vue-cli + mint-ui + flex + sass
+
+##功能实现
+***
+* 图片懒加载
+* 下拉刷新
+* 上拉加载更多
+* 图片预览
+* 拦截请求
+* 底部导航
+* 等...
