@@ -1,0 +1,87 @@
+@import "base/base";
+
+
+html,body{
+  -webkit-overflow-scrolling : touch;
+  width: 100%;
+  overflow-x:hidden;
+  min-width: 320px;
+  height:100%;
+  background-color:#f4f4f4;
+  .iconfont{
+    font-size: px2rem(36);
+  }
+}
+
+.btn-s{
+  display: block;
+  background-color: #6ac577;
+  width: px2rem(100);
+  height: px2rem(50);
+  line-height:px2rem(50);
+  text-align: center;
+  color: #fff;
+  font-size: px2rem(22);
+  border-radius: px2rem(8);
+}
+time{
+  color: #999;
+  font-size: px2rem(20);
+  line-height: px2rem(20);
+}
+.user-link{
+  position:relative;
+  margin-top: px2rem(20);
+  background-color:#fff;
+  li{
+    position:relative;
+    height: px2rem(90);
+    line-height: px2rem(90);
+    padding: 0 px2rem(20);
+    border-bottom:1px solid #eee;
+    box-sizing: border-box;
+    a{
+      position: relative;
+      display: block;
+    }
+  }
+  .Hui-iconfont-tuku{
+    color: #5197f9;
+  }
+  .Hui-iconfont-2code{
+    color: #f9616d;
+  }
+  .Hui-iconfont-hongbao{
+    color: #A2F4E4;
+  }
+  .Hui-iconfont-cang2-selected{
+    color:#FED547;
+  }
+  .Hui-iconfont-xiaoxi1{
+    color: #90883c;
+  }
+  .txt{
+    color: #333;
+    font-size: px2rem(32);
+  }
+
+}
+.icon-right{
+  position: absolute;
+  right: px2rem(20);
+  top:50%;
+  margin-top: px2rem(-15);
+  font-size: px2rem(30);
+  line-height:px2rem(30);
+  color: #999;
+}
+
+.mark{
+  background-color: #000;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  z-index: 99;
+}

@@ -1,0 +1,17 @@
+@import "base/min";
+
+#app {
+  margin-top: 50px;
+
+	.slide-fade-enter-active {
+	  transition: all .3s ease;
+	}
+	.slide-fade-leave-active {
+	  transition: all .3s ;
+	}
+	.slide-fade-enter, .slide-fade-leave-to
+	/* .slide-fade-leave-active for below version 2.1.8 */ {
+	  /*transform: translateX(0px);*/
+	  opacity: 0;
+	}
+}
