@@ -20,7 +20,7 @@ npm run build
 vue2 + vuex + vue-router + axios + mock.js + vue-preview + vue-cli + mint-ui + flex + sass
 
 ## 功能实现
-***
+
 * 图片懒加载
 * 下拉刷新
 * 上拉加载更多
