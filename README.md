@@ -15,11 +15,11 @@ npm run dev
 npm run build
 
 ```
-##技术栈
+## 技术栈
 
 vue2 + vuex + vue-router + axios + mock.js + vue-preview + vue-cli + mint-ui + flex + sass
 
-##功能实现
+## 功能实现
 ***
 * 图片懒加载
 * 下拉刷新
