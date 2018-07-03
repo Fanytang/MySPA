@@ -1,6 +1,6 @@
 # MySPA
 
-> My SPA演示地址 [demo](https://fanytang.github.io/MySPA).
+> 单页应用演示地址 [demo](https://fanytang.github.io/MySPA).
 
 ## 项目运行
 
